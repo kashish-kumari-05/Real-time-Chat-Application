@@ -1,0 +1,31 @@
+.message-row {
+  display: flex;
+  margin: 6px 0;
+}
+
+.message-row.self   { justify-content: flex-end; }
+.message-row.other  { justify-content: flex-start; }
+
+.bubble {
+  max-width: 75%;
+  padding: 8px 14px;
+  border-radius: 16px;
+  background: var(--bubble-other);
+  color: var(--bubble-text);
+  word-wrap: break-word;
+}
+
+.message-row.self .bubble {
+  background: var(--bubble-self);
+  color: #000;
+}
+
+.user {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 0.85rem;
+}
+
+.text { font-size: 0.95rem; }
+
