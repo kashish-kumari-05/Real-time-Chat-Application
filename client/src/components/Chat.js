@@ -5,7 +5,7 @@ import Message from './Message';
 import '../styles/Chat.css';
 
 
-const socket = io('http://localhost:3001');
+const socket = io("http://localhost:4000");
 
 function Chat() {
   // ――― state ―――

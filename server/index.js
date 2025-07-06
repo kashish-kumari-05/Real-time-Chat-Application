@@ -31,5 +31,5 @@ io.on('connection', (socket) => {
 });
 
 server.listen(4000, () => {
-  console.log('✅ Server running on http://localhost:3001');
+  console.log('✅ Server running on http://localhost:4000');
 });
