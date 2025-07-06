@@ -1,65 +1,16 @@
-/* app.css */
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* 
-body.dark {
-  background-color: #121212;
-  color: white;
-}
-
-body.light {
-  background-color: white;
-  color: black;
-} */
-/* --------------- default (light) --------------- */
+/* Light Theme (default) */
 :root {
   --card: #ffffff;
-  --box:  #f7f7f7;
+  --box:  #f9f9f9;
   --border: #ddd;
   --input-bg: #ffffff;
   --text: #222;
   --bubble-self: #d1e7ff;
   --bubble-other: #eaeaea;
-  --bubble-text: #111;
+  --bubble-text: #000;
 }
 
-/* --------------- dark mode --------------- */
+/* Dark Theme */
 body.dark {
   --card: #1e1e2f;
   --box:  #272741;
@@ -74,8 +25,24 @@ body.dark {
   transition: background 0.3s;
 }
 
-/* basic reset */
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.theme-toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #f1f1f1;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
 }

@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/Message.css';
 
-const Message = ({ message }) => {
+function Message({ message }) {
   const { user, text, self } = message;
+
   return (
     <div className={`message-row ${self ? 'self' : 'other'}`}>
       <div className="bubble">
@@ -11,7 +12,6 @@ const Message = ({ message }) => {
       </div>
     </div>
   );
-};
+}
 
 export default Message;
-

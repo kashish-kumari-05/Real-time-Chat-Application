@@ -1,14 +1,19 @@
 .message-row {
   display: flex;
-  margin: 6px 0;
+  margin: 5px 0;
 }
 
-.message-row.self   { justify-content: flex-end; }
-.message-row.other  { justify-content: flex-start; }
+.message-row.self {
+  justify-content: flex-end;
+}
+
+.message-row.other {
+  justify-content: flex-start;
+}
 
 .bubble {
   max-width: 75%;
-  padding: 8px 14px;
+  padding: 10px 14px;
   border-radius: 16px;
   background: var(--bubble-other);
   color: var(--bubble-text);
@@ -23,9 +28,10 @@
 .user {
   display: block;
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   font-size: 0.85rem;
 }
 
-.text { font-size: 0.95rem; }
-
+.text {
+  font-size: 0.95rem;
+}
