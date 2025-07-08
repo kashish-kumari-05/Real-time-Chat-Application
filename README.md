@@ -64,7 +64,7 @@ This technology stack ensures that the app performs efficiently and is easily sc
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/kashish-kumari-05/Realtime-Chat-Application.git
+git clone https://github.com/kashish-kumari-05/Real-time-Chat-Application.git
 cd Realtime-Chat-App
 ```
 
