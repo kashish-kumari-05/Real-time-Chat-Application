@@ -8,6 +8,8 @@
 "MENTOR" : Neela Santhosh
 
 
+
+
 This Real-Time Chat App is a modern, interactive chat application developed as part of an internship task. It enables real-time communication between users with features like emoji support, typing indicators, image sharing, and theme toggling. The primary purpose of this project is to demonstrate skills in frontend and backend integration, event-based communication with Socket.IO, and building interactive UIs using React.
 
 This chat application provides a clean user interface and delivers real-time chat functionality by using WebSockets. The application has two major components: the frontend (React) and the backend (Node.js + Express + Socket.IO). Users can chat with each other in real time, and the application supports simultaneous usage in multiple browser tabs or across different devices on the same network.
@@ -109,7 +111,7 @@ Realtime-Chat-App/
 
 ## 📸 Screenshot 
 
-
+<img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/6a193386-2633-4991-96c9-43135c6344c2" />
 ---
 
 ## 🙋‍♀️ Author
