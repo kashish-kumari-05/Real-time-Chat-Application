@@ -109,7 +109,7 @@ Realtime-Chat-App/
 
 ## 📸 Screenshot 
 
-
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/074d7da3-7ae3-4909-9fe4-2bab34a3ddfb" />
 ---
 
 ## 🙋‍♀️ Author
