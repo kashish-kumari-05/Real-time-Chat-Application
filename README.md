@@ -6,6 +6,7 @@
 "DOMAIN" : MERN STACK WEB DEVELOPMENT
 "DURATION" : 6 WEEKS
 "MENTOR" : Neela Santhosh
+```
 
 ---
 
