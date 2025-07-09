@@ -1,5 +1,5 @@
 # 💬 Realtime Chat Application
-
+```bash
 "COMPANY" : CODTECH IT SOLUTIONS
 "NAME" : KASHISH KUMARI
 "INTERN ID" : CT06DF642
@@ -7,7 +7,7 @@
 "DURATION" : 6 WEEKS
 "MENTOR" : Neela Santhosh
 
-
+---
 
 
 This Real-Time Chat App is a modern, interactive chat application developed as part of an internship task. It enables real-time communication between users with features like emoji support, typing indicators, image sharing, and theme toggling. The primary purpose of this project is to demonstrate skills in frontend and backend integration, event-based communication with Socket.IO, and building interactive UIs using React.
